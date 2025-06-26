@@ -1,9 +1,12 @@
 /* Parte 1: Arrays orientados al DOM
 Tienes un array de colores. Recorre ese array y crea un mensaje por cada color en formato: "El color X es muy bonito". Imagina que luego mostrarás cada mensaje en un <div>.
 */
+<<<<<<< HEAD
 
 
 // Utilicé esta forma para tener mas ordenado el código, declarando variables en js que conecten con el id del elemento html mediante document.getElementById("id") 
+=======
+>>>>>>> 3fe23faed908da0fdad4ccd5c314853165ceb869
 
 let container = document.getElementById("container");
 let numeros = document.getElementById("numeros");
@@ -13,7 +16,10 @@ let song = document.getElementById("cancion");
 let listaUl = document.getElementById("listaUl");
 let usuarios = document.getElementById("usuarios");
 let libros = document.getElementById("libros");
+<<<<<<< HEAD
 let tareas = document.getElementById("tareas");
+=======
+>>>>>>> 3fe23faed908da0fdad4ccd5c314853165ceb869
 
 let colores = ["azul", "blanco", "rojo", "verde", "violeta", "naranja"];
 
@@ -84,6 +90,69 @@ for (let clave in producto) {
 // Parte 3: Listas de Objetos enfocadas en visualización
 // Recorre un array de usuarios (con nombre y correo) y crea un array de etiquetas <div> que incluyan esa información formateada como tarjeta de contacto.
 
+<<<<<<< HEAD
+=======
+
+const users = [
+
+    {nombre: "Pablo", correo: "pablo@gmail.com"},
+    {nombre: "Maria", correo: "maria@gmail.com"},
+    {nombre: "Susana", correo: "susana@gmail.com"},
+    {nombre: "Maxi", correo: "maxi@gmail.com"},
+    {nombre: "Cielo", correo: "cielo@gmail.com"},
+
+];
+
+const formatedUsers = users.map(u => `<div class="tarjeta-usuarios"> <h3>${u.nombre}</h3> <p>${u.correo}</p></div>`);
+usuarios.innerHTML = formatedUsers.join("");
+
+let tarjetas = document.querySelectorAll(".tarjeta-usuarios");
+
+tarjetas.forEach(t => {
+t.style.display = "inline-block";
+t.style.border = "2px solid black";
+t.style.boxShadow = "4px 2px 2px rgba(0, 0, 0, 0.3)";
+t.style.padding = "10px";
+t.style.margin = "10px";
+});
+
+
+// Dado un array de libros con titulo, autor y año, transforma cada uno en una cadena de texto con formato: "Título (Año) - Autor". Luego imagina que cada una irá dentro de un <li>.
+
+let books = [
+    {
+        titulo: "El eternauta",
+        autor: "Osterheld",
+        año: 1957
+    },
+
+    {
+        titulo: "El lider que no tenia cargo",
+        autor: "Robin Sharma",
+        año: 2010
+    },
+
+    {
+        titulo: "Cinco cerditos",
+        autor: "Agatha Christie",
+        año: 1942
+    }
+];
+
+for (let libro of books) {libros.innerHTML += `<li>Título: ${libro.titulo} - Año: ${libro.año} - Autor: ${libro.autor}</li>`};
+
+
+
+// Tienes una lista de tareas (con descripcion y completada). Crea una función que genere una estructura HTML diferente si la tarea está completa o pendiente. Por ejemplo: mostrar un ✅ o ❌ antes del texto.
+
+const tareas = [
+    {descripcion: "ejercicios Andrea", completada: true },
+    {descripcion: " training desarrollo", completada: false },
+    {descripcion: "training ingles", completada: false },
+    {descripcion: "tarea Sebastian", completada: false },
+    {descripcion: "training Habilidades para la vida", completada: false },
+];
+>>>>>>> 3fe23faed908da0fdad4ccd5c314853165ceb869
 
 const users = [
 
