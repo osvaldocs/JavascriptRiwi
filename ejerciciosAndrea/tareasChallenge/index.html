@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tasks list</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background-color: #1e1e1e; color: whitesmoke}
+    input, button { padding: 8px; margin: 5px; }
+    .tasks { margin: 10px 0; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+  </style>
+</head>
+<body>
+
+  <h1> My task list</h1>
+
+  <form id="task-form">
+    <input type="text" id="description" placeholder="place here your task" required>
+    <button type="submit">Create task</button>
+  </form>
+
+  <div id="task-list" class="tasks">
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
