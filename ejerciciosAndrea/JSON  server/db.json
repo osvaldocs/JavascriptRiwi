@@ -1,0 +1,46 @@
+{
+  "tareas": [
+  {
+  "id": 1,
+  "title": "Estudiar Fetch API",
+  "description": "Aprender a consumir APIs con JavaScript",
+  "completed": false
+  },
+
+  {
+  "id": 2,
+  "title": "Manipular el DOM de forma dinámica",
+  "description": "Aprender a insertar etiquetas HTML al index, mediante distinas maneras",
+  "completed": true
+  },
+
+  {
+  "id": 3,
+  "title": "Estudiar Hoisting",
+  "description": "Aprender elcomo funciona 'elevamiento' en JS",
+  "completed": true
+  },
+
+  {
+  "id": 4,
+  "title": "Estudiar Scope",
+  "description": "Aprender a identificar los diferentes scopes, alcance de accecibilidad de una variable",
+  "completed": true
+  },
+
+  {
+  "id": 5,
+  "title": "Clousure",
+  "description": "Aprender como se guarda el scope en una funcion interna",
+  "completed": true
+  },
+
+  {
+  "id": 6,
+  "title": "Estudiar Callbacks",
+  "description": "Aprender a pasar otra función como parámetro de una función",
+  "completed": true
+  }
+
+  ]
+}
