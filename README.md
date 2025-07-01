@@ -47,3 +47,10 @@ Captura de errores en código síncrono y asincrónico. Uso de `try`, `catch` y 
 
 ```bash
 node nombre-del-archivo.js
+```
+---
+
+## 🧠 Notas
+- Los nombres de las carpetas y archivos no siguen una convención fija.
+- Algunas carpetas están en construcción.
+- Este repositorio irá creciendo a medida que avance mi aprendizaje.
