@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion del DOM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="userForm">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Please, enter your name:" required>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" placeholder="Please, enter your age:" required>
+            <div class="buttonContainer">
+                <button type="button" id="saveButton">Save Data</button>
+                <button type="button" id="clearButton">Clean Data</button>
+            </div>    
+        </form>
+    <div id="output"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
