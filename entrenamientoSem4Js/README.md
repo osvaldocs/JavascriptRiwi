@@ -38,4 +38,8 @@ manipulacion_dom.html
 
 ### displayData()
 
-Función que muestar 
+Función que muesta los datos guardados en localStorage.
+
+### updateInteracions()
+
+Función que cuenta las interacciones del usuario cuando hace click en los botonse de Save y Clear. mediante un listenerEvent.
